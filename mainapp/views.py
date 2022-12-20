@@ -8,8 +8,10 @@ class MainPageView(TemplateView):
 class NewsPageView(TemplateView):
     template_name = "mainapp/news.html"
 
+
 class CoursesPageView(TemplateView):
     template_name = "mainapp/courses.html"
+
 
 class ContactsPageView(TemplateView):
     template_name = "mainapp/contacts.html"
@@ -17,6 +19,7 @@ class ContactsPageView(TemplateView):
 
 class DocSitePageView(TemplateView):
     template_name = "mainapp/doc_site.html"
+
 
 class LoginPageView(TemplateView):
     template_name = "mainapp/login.html"
