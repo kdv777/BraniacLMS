@@ -42,7 +42,9 @@
                   раздел</a>
               {% endif %}
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="{% url 'authapp:logout' %}">Выход</a>
+              <a class="dropdown-item"
+                href="{% url 'authapp:profile_edit' pk=request.user.pk %}">Редактировать
+                профиль</a>
             </div>
           </li>
         {% else %}
